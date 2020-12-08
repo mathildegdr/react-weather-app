@@ -1,38 +1,162 @@
-.App {
-  text-align: center;
+body {
+  background: #d5dde9;
+  font-family: "Source Code Pro", monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
   color: white;
+  text-align: center;
+  line-height: 15px;
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  color: #f4d03f;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: white;
+  line-height: 5px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+h5 {
+  color: #48484a;
+  line-height: 15px;
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0 auto;
+  letter-spacing: -0.5px;
+}
+
+p {
+  color: #1d57a4;
+  line-height: 5px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  list-style-type: none;
+  text-transform: capitalize;
+  letter-spacing: -0.5px;
+}
+
+.container1 {
+  position: absolute;
+  top: 25px;
+  left: 33px;
+  right: 33px;
+}
+
+.container2 {
+  position: absolute;
+  top: 50px;
+  left: 33px;
+  right: 33px;
+  bottom: 60px;
+}
+
+.container2 h1 {
+  color: #6f96cd;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+.container2 h2 {
+  color: #6f96cd;
+  line-height: 10px;
+}
+
+.container2 .forecast {
+  position: absolute;
+  top: 90px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.container2 .forecastIcon {
+  position: absolute;
+  width: 27%;
+  height: 10%;
+  border: none;
+}
+
+.container2 img {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  width: 80%;
+  -webkit-filter: drop-shadow(1px 1px 1px #222);
+  filter: drop-shadow(1px 1px 1px #222);
+}
+
+.container2 .forecastDescription {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  width: 48%;
+  height: 9%;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 0 0 8px;
+  background: #e5edf7;
+}
+
+#day2 {
+  top: 80px;
+}
+
+#day3 {
+  top: 160px;
+}
+
+#day4 {
+  top: 240px;
+}
+
+#day5 {
+  top: 320px;
+}
+
+.signature {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  transform: rotate(90deg);
+  text-transform: uppercase;
+}
+
+.sheCodes {
+  position: absolute;
+  top: 50%;
+  left: -67%;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
 }

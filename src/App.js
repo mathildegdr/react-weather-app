@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import "./App.css";
+
+import FirstPhone from "./FirstPhone.js";
+import SecondPhone from "./SecondPhone.js";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="wrapper">
+        <FirstPhone />
+        <SecondPhone />
+        <div className="signature">
+          <p>Designed and coded by Mathilde Gaudier</p>
+        </div>
+        <div className="sheCodes">
+          <p>SheCodes React project</p>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;
