@@ -2,6 +2,7 @@ import React from "react";
 
 import "./App.css";
 import "./SecondPhone.css";
+import "./Forecast.css";
 import Forecast from "./Forecast.js";
 
 export default function SecondPhone() {
@@ -13,6 +14,7 @@ export default function SecondPhone() {
       <div className="container2">
         <h1>Forecast</h1>
         <h2>Next hours</h2>
+        <h6>(real time data coming soon...)</h6>
         <Forecast />
       </div>
     </div>

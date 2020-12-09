@@ -44,6 +44,15 @@ h5 {
   letter-spacing: -0.5px;
 }
 
+h6 {
+  color: #c9a100;
+  line-height: 0px;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
 p {
   color: #1d57a4;
   line-height: 5px;
@@ -66,83 +75,26 @@ li {
   letter-spacing: -0.5px;
 }
 
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #48484a;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: 700;
+  background: #ffe66f;
+  color: #48484a;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
 .container1 {
   position: absolute;
   top: 25px;
   left: 33px;
   right: 33px;
-}
-
-.container2 {
-  position: absolute;
-  top: 50px;
-  left: 33px;
-  right: 33px;
-  bottom: 60px;
-}
-
-.container2 h1 {
-  color: #6f96cd;
-  font-weight: 800;
-  font-size: 25px;
-  line-height: 10px;
-}
-
-.container2 h2 {
-  color: #6f96cd;
-  line-height: 10px;
-}
-
-.container2 .forecast {
-  position: absolute;
-  top: 90px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-}
-
-.container2 .forecastIcon {
-  position: absolute;
-  width: 27%;
-  height: 10%;
-  border: none;
-}
-
-.container2 img {
-  position: absolute;
-  left: 15px;
-  top: 0;
-  width: 80%;
-  -webkit-filter: drop-shadow(1px 1px 1px #222);
-  filter: drop-shadow(1px 1px 1px #222);
-}
-
-.container2 .forecastDescription {
-  position: absolute;
-  right: 20px;
-  top: 0px;
-  width: 48%;
-  height: 9%;
-  border: none;
-  border-radius: 4px;
-  padding: 5px 0 0 8px;
-  background: #e5edf7;
-}
-
-#day2 {
-  top: 80px;
-}
-
-#day3 {
-  top: 160px;
-}
-
-#day4 {
-  top: 240px;
-}
-
-#day5 {
-  top: 320px;
 }
 
 .signature {
