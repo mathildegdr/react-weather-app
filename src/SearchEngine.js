@@ -49,9 +49,9 @@ export default function SearchEngine() {
         {form}
         <h3> {city} </h3>
         <ul>
-          <li>Temperature: {Math.round(weather.temperature)}°C</li>
+          <li>Current temperature: {Math.round(weather.temperature)}°C</li>
           <li>Description: {weather.description} </li>
-          <li>Humidity: {weather.humidity}</li>
+          <li>Humidity: {weather.humidity}%</li>
           <li>Wind: {weather.wind}km/h</li>
         </ul>
         <img src={weather.icon} alt={weather.description} />
