@@ -17,6 +17,7 @@ export default function App() {
             <a
               href="https://github.com/mathildegdr/react-weather-app"
               target="_blank"
+              rel="noreferrer"
             >
               Mathilde Gaudier
             </a>
