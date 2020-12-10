@@ -1,0 +1,31 @@
+#search {
+  font-family: "Source Code Pro", monospace;
+  letter-spacing: -0.5px;
+  font-size: 12px;
+  position: relative;
+  text-transform: capitalize;
+  margin: 40px 10px 10px 0;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 10px;
+  width: 79%;
+  background: #dbe5eb;
+  box-shadow: inset 2px 2px 2px #959ca0, inset -4px -4px 4px #ffffff;
+}
+
+#submit {
+  position: relative;
+  margin: 40px 0px 10px 0;
+  border: none;
+  border-radius: 7px;
+  padding: 1px 6px 3px 6px;
+  background: linear-gradient(145deg, #ffe66f, #dbc25e);
+  box-shadow: 3px 3px 5px #525252, -1px -1px 2px #dbdbd9;
+  color: #1e56a3;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+#submit:hover {
+  background: linear-gradient(145deg, #faf6e0, #f0dc8f);
+}

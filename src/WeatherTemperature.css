@@ -1,0 +1,20 @@
+.WeatherTemperature {
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.unit a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #ffe66f;
+}
+
+.unit a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #c9a100;
+  background: none;
+}

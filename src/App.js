@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./Weather.css";
 import Weather from "./Weather.js";
 
 export default function App() {
@@ -10,7 +11,7 @@ export default function App() {
           <div className="PhoneBackground1"></div>
           <div className="topCurve"></div>
           <div className="bottomLine"></div>
-          <div className="container1">
+          <div className="containerWeather">
             <h4>HELLO!</h4>
             <br />
             <h1>Weather</h1>
@@ -21,7 +22,7 @@ export default function App() {
           <div className="PhoneBackground2"></div>
           <div className="topCurve"></div>
           <div className="bottomLine"></div>
-          <div className="container2">
+          <div className="containerForecast">
             <h1>Forecast</h1>
             <h2>Next hours</h2>
           </div>

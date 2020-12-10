@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./Forecast.css";
 
 import ClearDay from "./images/ClearDay.svg";
 import ClearNight from "./images/ClearNight.svg";

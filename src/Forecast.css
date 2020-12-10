@@ -1,0 +1,93 @@
+.containerForecast {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  right: 20px;
+  bottom: 60px;
+}
+
+.containerForecast h1 {
+  color: #6f96cd;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+.containerForecast h2 {
+  color: #6f96cd;
+  line-height: 10px;
+}
+
+.forecast {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.forecastIcon {
+  width: 50%;
+  left: 0;
+}
+
+.forecastDescription {
+  position: absolute;
+  left: 70px;
+  top: 0px;
+  width: 50%;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 0 0 8px;
+  background: #e5edf7;
+}
+
+.forecastDescription h5 {
+  color: #48484a;
+  line-height: 15px;
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0 auto;
+  letter-spacing: -0.5px;
+}
+
+#firstForecast {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+#secondForecast {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+#thirdForecast {
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+#fourthForecast {
+  position: absolute;
+  top: 210px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+#fithForecast {
+  position: absolute;
+  top: 280px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}

@@ -1,0 +1,12 @@
+#time {
+  position: absolute;
+  top: -130px;
+  right: 0px;
+}
+
+#time h4 {
+  color: white;
+  line-height: 5px;
+  font-size: 10px;
+  font-weight: 400;
+}

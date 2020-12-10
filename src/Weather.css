@@ -1,0 +1,52 @@
+.weatherIcon {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.ResultsLeft {
+  position: absolute;
+  width: 190px;
+  height: 350px;
+  top: 180px;
+  left: -260px;
+}
+.ResultsRight {
+  position: absolute;
+  width: 230px;
+  height: 400px;
+  top: -70px;
+  left: 290px;
+}
+
+.containerWeather {
+  position: absolute;
+  top: 30px;
+  left: 33px;
+  right: 33px;
+}
+
+.WeatherInfo h3 {
+  color: #f4d03f;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.WeatherInfo ul {
+  padding: 0;
+}
+
+.WeatherInfo li {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  list-style-type: none;
+  text-transform: capitalize;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
