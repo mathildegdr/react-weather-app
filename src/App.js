@@ -7,8 +7,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="wrapper">
-        <div className="PhoneBorder1">
-          <div className="PhoneBackground1"></div>
+        <div className="FirstPhoneBorder">
+          <div className="FirstPhoneBackground"></div>
           <div className="topCurve"></div>
           <div className="bottomLine"></div>
           <div className="containerWeather">
@@ -18,8 +18,8 @@ export default function App() {
             <h2>Search Engine</h2>
           </div>
         </div>
-        <div className="PhoneBorder2">
-          <div className="PhoneBackground2"></div>
+        <div className="SecondPhoneBorder">
+          <div className="SecondPhoneBackground"></div>
           <div className="topCurve"></div>
           <div className="bottomLine"></div>
           <div className="containerForecast">
@@ -43,7 +43,7 @@ export default function App() {
         <div className="sheCodes">
           <p>SheCodes React project</p>
         </div>
-        <Weather defaultCity="Wellington" />
+        <Weather defaultCity="Annecy" />
       </div>
     </div>
   );
